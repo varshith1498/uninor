@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TeleConnect – My Account</title>
+    <title>UNINOR – My Account</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,7 +63,7 @@
 %>
 
 <div class="navbar">
-    <div>TeleConnect – My Account</div>
+    <div>UNINOR – My Account</div>
     <div>
         <a href="<%= request.getContextPath() %>/index.jsp">Home</a>
         <a href="<%= request.getContextPath() %>/plans">Plans</a>
