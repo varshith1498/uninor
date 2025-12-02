@@ -199,7 +199,7 @@
 %>
 
 <div class="navbar">
-    <div class="logo">TeleConnect</div>
+    <div class="logo">UNINOR</div>
     <div class="menu">
         <a href="<%= request.getContextPath() %>/plans">Prepaid Plans</a>
         <a href="<%= request.getContextPath() %>/plans">Postpaid</a>
