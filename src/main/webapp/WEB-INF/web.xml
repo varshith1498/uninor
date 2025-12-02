@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <display-name>TeleConnect Portal</display-name>
+
+    <!-- PlansServlet -->
+    <servlet>
+        <servlet-name>PlansServlet</servlet-name>
+        <servlet-class>com.example.telecom.servlet.PlansServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PlansServlet</servlet-name>
+        <url-pattern>/plans</url-pattern>
+    </servlet-mapping>
+
+    <!-- RechargeServlet -->
+    <servlet>
+        <servlet-name>RechargeServlet</servlet-name>
+        <servlet-class>com.example.telecom.servlet.RechargeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RechargeServlet</servlet-name>
+        <url-pattern>/recharge</url-pattern>
+    </servlet-mapping>
+
+    <!-- LoginServlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.example.telecom.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <!-- LogoutServlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.example.telecom.servlet.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <!-- Default landing page -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
