@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TeleConnect – Login</title>
+    <title>Uninor – Login</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -106,8 +106,8 @@
 
         <div class="hint">
             Demo credentials:<br>
-            Email: <b>user@teleconnect.com</b><br>
-            Password: <b>password123</b>
+            Email: <b>nvkc1498@gmail.com</b><br>
+            Password: <b>Varshith@123</b>
         </div>
 
         <a class="back-link" href="<%= request.getContextPath() %>/index.jsp">
