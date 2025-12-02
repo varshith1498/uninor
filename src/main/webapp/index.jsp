@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TeleConnect – Digital Telecom Services</title>
+    <title>UNINOR – Digital Telecom Services</title>
     <style>
         body {
             margin: 0;
@@ -292,7 +292,7 @@
         <a href="#">Contact</a>
     </div>
     <p style="margin-top: 10px;">
-        © <%= java.time.Year.now() %> TeleConnect Communications Ltd. All rights reserved.
+        © <%= java.time.Year.now() %> Uninor Communications Ltd. All rights reserved.
     </p>
 </div>
 
