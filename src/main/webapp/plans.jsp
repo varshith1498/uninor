@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TeleConnect – Plans</title>
+    <title>UNINOR – Plans</title>
     <style>
         body {
             font-family: Arial, sans-serif;
